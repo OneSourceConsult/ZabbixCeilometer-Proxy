@@ -11,15 +11,6 @@ This project started as a way to integrate monitoring information collected in a
 * Periodically retrieve resources/meters details from OpenStack;
 * Allow to have one common monitoring system (e.g Zabbix) for several OpenStack-based Cloud Data Centres.
 
-##Copyright
-Copyright (c) 2014 OneSource Consultoria Informatica, Lda. [🔗](www.onesource.pt)
-
-This project has been developed in the scope of the MobileCloud Networking project[🔗](http://mobile-cloud-networking.eu) by Cláudio Marques, David Palma and Luis Cordeiro (_{claudio, palma, cordeiro}@onesource.pt_).
-
-
-##Source
-If not doing so already, you can check out the latest version of ZCP either through [github](https://github.com/OneSourceConsult/ZabbixCeilometer-Proxy) or [OneSource](www.onesource.pt).
-
 ##Requirements
 The Zabbix-Ceilometer Proxy was written using _Python_ version 2.7.5 but can be easily ported to version 3. It uses the Pika library for support of AMQP protocol, used by OpenStack.
 
@@ -33,9 +24,6 @@ If the previous command fails, download and manually install the Pika library on
 * http://pika.readthedocs.org/en/latest/
 
 **Note:** Since the purpose of this project is to be integrated with OpenStack and Zabbix it is assumed that apart from a running installation of these two, some knowledge of OpenStack has already been acquired.
-
-##License
-Distributed under the Apache 2 license. See ``LICENSE.txt`` for more information.
 
 ##Usage
 Assuming that all the above requirements are met, the ZCP can be run with 3 simple steps:
@@ -52,9 +40,20 @@ Assuming that all the above requirements are met, the ZCP can be run with 3 simp
 
 If all goes well the information retrieved from OpenStack's Ceilometer will be pushed in your Zabbix monitoring system.
 
+##Source
+If not doing so already, you can check out the latest version of ZCP either through [github](https://github.com/OneSourceConsult/ZabbixCeilometer-Proxy) or [OneSource](www.onesource.pt).
+
+##Copyright
+Copyright (c) 2014 OneSource Consultoria Informatica, Lda. [🔗](http://www.onesource.pt)
+
+This project has been developed in the scope of the MobileCloud Networking project[🔗](http://mobile-cloud-networking.eu) by Cláudio Marques, David Palma and Luis Cordeiro.
+
+##License
+Distributed under the Apache 2 license. See ``LICENSE.txt`` for more information.
+
 ##About
 
-OneSource is the core institution that supported this work. Regarding queries about further development of custom solutions and consultancy services please contact us by email: **_geral at one source.pt_** or through our website: <http://www.onesource.pt>
+OneSource is the core institution that supported this work. Regarding queries about further development of custom solutions and consultancy services please contact us by email: **_geral✉️onesource.pt_** or through our website: <http://www.onesource.pt>
 
 OneSource is a Portuguese SME specialised in the fields of data communications, security, networking and systems management, including the consultancy, auditing, design, development and lifetime administration of tailored IT solutions for corporate networks, public-sector institutions, utilities and telecommunications operators.
 
