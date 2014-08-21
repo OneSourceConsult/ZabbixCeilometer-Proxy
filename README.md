@@ -14,7 +14,7 @@ This project started as a way to integrate monitoring information collected in a
 ##Copyright
 Copyright (c) 2014 OneSource Consultoria Informatica, Lda. [🔗](www.onesource.pt)
 
-This project has been developed in the scope of the MobileCloud Networking project[🔗](http://mobile-cloud-networking.eu) by Cláudio Marques and David Palma (_{claudio,palma}@onesource.pt_).
+This project has been developed in the scope of the MobileCloud Networking project[🔗](http://mobile-cloud-networking.eu) by Cláudio Marques, David Palma and Luis Cordeiro (_{claudio, palma, cordeiro}@onesource.pt_).
 
 
 ##Source
