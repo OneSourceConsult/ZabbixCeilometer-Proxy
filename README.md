@@ -40,7 +40,7 @@ Assuming that all the above requirements are met, the ZCP can be run with 3 simp
 
 If all goes well the information retrieved from OpenStack's Ceilometer will be pushed in your Zabbix monitoring system.
 
-**Note:** You can check out a demo from a premilinary version of ZCP running with OpenStack Havanna and Zabbix [here](https://www.youtube.com/watch?v=DXz-W9fgvRk)
+**Note:** You can check out a demo from a premilinary version of ZCP running with OpenStack Havana and Zabbix [here](https://www.youtube.com/watch?v=DXz-W9fgvRk)
 
 ##Source
 If not doing so already, you can check out the latest version of ZCP either through [github](https://github.com/OneSourceConsult/ZabbixCeilometer-Proxy) or [OneSource](www.onesource.pt).
