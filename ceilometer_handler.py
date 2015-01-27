@@ -18,6 +18,7 @@ import json
 import socket
 from threading import Timer
 
+
 class CeilometerHandler:
 
     def __init__(self, ceilometer_api_port, polling_interval, template_name, ceilometer_api_host, zabbix_host,
@@ -34,9 +35,11 @@ class CeilometerHandler:
         self.zabbix_port = zabbix_port
         self.zabbix_proxy_name = zabbix_proxy_name
         self.keystone_auth = keystone_auth
-        self.token = self.keystone_auth.getToken()
+
+
 
     def run(self):
+        self.token = self.keystone_auth.getToken()
         Timer(self.polling_interval, self.run, ()).start()
         host_list = self.get_hosts_ID()
         self.update_values(host_list)
@@ -195,3 +198,4 @@ class CeilometerHandler:
 
         payload = self.set_proxy_header(data)
         self.connect_zabbix(payload)
+
